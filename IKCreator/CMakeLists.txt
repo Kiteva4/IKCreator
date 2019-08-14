@@ -11,19 +11,19 @@ if(INCLUDE_DISTRIB)
 endif(INCLUDE_DISTRIB)
 
 include_directories(
-    external/AntTweakBar-1.16/include/
-    external/glfw-3.1.2/include/GLFW/
-    external/glm-0.9.7.1/
-    external/glew-1.13.0/include/
-    external/assimp-3.0.1270/include/
-    external/bullet-2.81-rev2613/src/
+#    external/AntTweakBar-1.16/include/
+    external/glfw-3.3/include/GLFW/
+#    external/glm-0.9.7.1/
+    external/glew-2.1.0/include/
+#    external/assimp-3.0.1270/include/
+#    external/bullet-2.81-rev2613/src/
     .
     )
 
 set(ALL_LIBS
     ${OPENGL_LIBRARY}
     glfw
-    GLEW_1130
+    GLEW_210
     )
 
 add_definitions(
