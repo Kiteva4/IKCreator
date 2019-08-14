@@ -13,7 +13,7 @@ endif(INCLUDE_DISTRIB)
 include_directories(
 #    external/AntTweakBar-1.16/include/
     external/glfw-3.3/include/GLFW/
-#    external/glm-0.9.7.1/
+    external/glm-0.9.9.5/
     external/glew-2.1.0/include/
 #    external/assimp-3.0.1270/include/
 #    external/bullet-2.81-rev2613/src/
